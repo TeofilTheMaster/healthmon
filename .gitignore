@@ -132,3 +132,6 @@ dist
 
 # VS Studio
 *.code-workspace
+
+# FitBit build folder
+build

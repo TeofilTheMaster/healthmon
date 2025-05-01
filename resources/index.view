@@ -1,3 +1,5 @@
-<svg>
-  <rect id="background" />
+<svg viewport-fill="fb-black">
+  <text id="time-label" x="50%" y="50%+15"
+      fill="gray" font-size="64" font-family="System-Regular"
+      text-anchor="middle" text-length="20">00:00:00</text>
 </svg>
