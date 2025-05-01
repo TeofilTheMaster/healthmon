@@ -1,5 +1,6 @@
-import * as document from "document";
+// to be added: CBOR file storage and cure for lazyness
 
+import * as document from "document";
 import { Accelerometer } from "accelerometer";
 import { Gyroscope } from "gyroscope";
 import { Barometer } from "barometer";
@@ -9,6 +10,8 @@ import { today } from "user-activity";
 import { user } from "user-profile";
 import { geolocation } from "geolocation";
 import clock from "clock";
+import * as fs from "fs";
+import { me as device } from "device";
 
 // Update every second
 clock.granularity = "seconds";
